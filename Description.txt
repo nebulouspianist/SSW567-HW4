@@ -1,0 +1,9 @@
+What I thought when I was designing the code and how to make the code easy to test:
+
+	I tried to do as much error handling as I could, for example, input parameter is not a string, having errors when requesting data from the API, etc. And for each error I clearly write what the ouput would be, I think this will make test become easier.
+
+
+Challenges:
+
+	The biggest challenge is definitely rate limit of the Github API, it is so frustrating when I test the code, all of a sudden it doesn't work and I have to wait for a long period of time. Other than that, I don't have extra github account so I cannot really test the situation when github username doesn't exist and when a username is valid but it is an empty account. Other than that, it feels ok.
+

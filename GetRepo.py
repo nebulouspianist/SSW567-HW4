@@ -62,7 +62,7 @@ def getRepoAndCommit (username):
 
 
 
-print(getRepoAndCommit("nebulouspianist"))
+# print(getRepoAndCommit("nebulouspianist"))
 
 
 class Test (unittest.TestCase):
@@ -70,7 +70,7 @@ class Test (unittest.TestCase):
     def test1(self):
 
         # since it will be too messy to test the whole list, I will just test the length of the list.
-        self.assertEqual(len(getRepoAndCommit("nebulouspianist")),18)
+        self.assertEqual(len(getRepoAndCommit("nebulouspianist")),19)
 
  
     
